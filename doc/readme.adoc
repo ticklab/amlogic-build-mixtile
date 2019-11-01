@@ -21,7 +21,7 @@
 | 
 
 |`Yocto 移植`
-|版本？
+|版本？warrior
 | 
 
 |`HDMI 显示`
