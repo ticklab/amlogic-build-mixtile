@@ -1,5 +1,9 @@
 = Amlogic 说明
 
+== 参考
+
+* https://www.khadas.com/vim[khadas vim] 906单板
+
 
 == A311D 芯片
 
