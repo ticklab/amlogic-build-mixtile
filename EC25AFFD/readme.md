@@ -1,0 +1,4 @@
+# EC25AFFD
+
+EC25AFFD-MINIPCIE（移远模块）
+4G模块，USB接口
