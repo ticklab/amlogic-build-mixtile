@@ -5,3 +5,5 @@
 1. rockchip uboot https://github.com/54shady/firefly_rk3399_uboot/blob/a02f03a90866cca78cabb320b00381b4dafac5db/drivers/power/fuel_gauge/fg_cw201x.c
 2. nvidia kernel driver:
 https://github.com/riverzhou/tegra_kernel/blob/37e3bbe8810709c84921e7a844a018bdc3c35430/drivers/power/cw201x_battery.c
+
+3. rockchip kernel: https://github.com/rockchip-toybrick/kernel/blob/stable/drivers/power/cw2015_battery.c
