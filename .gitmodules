@@ -1,0 +1,9 @@
+[submodule "linux"]
+	path = linux
+	url = https://github.com/pengphei/linux.git
+[submodule "aml-uboot"]
+	path = aml-uboot
+	url = git@github.com:mixtile/aml-uboot.git
+[submodule "aml-uboot-legacy"]
+	path = aml-uboot-legacy
+	url = https://github.com/mixtile/aml-uboot-legacy.git
