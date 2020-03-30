@@ -6,4 +6,4 @@
 	url = git@github.com:mixtile/aml-uboot.git
 [submodule "aml-uboot-legacy"]
 	path = aml-uboot-legacy
-	url = https://github.com/mixtile/aml-uboot-legacy.git
+	url = git@github.com:mixtile/aml-uboot-legacy.git

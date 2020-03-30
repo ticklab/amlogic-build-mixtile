@@ -1,5 +1,5 @@
 # this is the uboot build script
-GCC_AARCH64=gcc-arm-9.2-2019.12-x86_64-aarch64-none-elf 
+GCC_AARCH64=gcc-arm-9.2-2019.12-x86_64-aarch64-none-elf
 
 # first we have to got the toolchains
 
@@ -14,14 +14,16 @@ export ROOTDIR=$PWD
 # build mainline uboot
 cd $PWD/aml-uboot
 
-make ARCH=arm CROSS_COMPILE=aarch64-none-elf- khadas-vim3_defconfig
+#make ARCH=arm CROSS_COMPILE=aarch64-none-elf- khadas-vim3_defconfig
+make ARCH=arm CROSS_COMPILE=aarch64-none-elf- mixtile-edge_defconfig
 make ARCH=arm CROSS_COMPILE=aarch64-none-elf-
 
 mkdir -p $FIPDIR_ML
 
 # Copy legacy fip referring to mainline
 cp $UBOOTDIR/build/scp_task/bl301.bin $FIPDIR_ML/
-cp $UBOOTDIR/build/board/khadas/kvim3/firmware/acs.bin $FIPDIR_ML/
+#cp $UBOOTDIR/build/board/khadas/kvim3/firmware/acs.bin $FIPDIR_ML/
+cp $UBOOTDIR/build/board/mixtile/edge/firmware/acs.bin $FIPDIR_ML/
 cp $FIPDIR/g12b/bl2.bin $FIPDIR_ML/
 cp $FIPDIR/g12b/bl30.bin $FIPDIR_ML/
 cp $FIPDIR/g12b/bl31.img $FIPDIR_ML/

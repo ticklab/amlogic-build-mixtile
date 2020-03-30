@@ -15,7 +15,8 @@ mkdir -p $FIPDIR_ML
 
 # build legacy uboot
 cd $PWD/aml-uboot-legacy
-make ARCH=arm CROSS_COMPILE=aarch64-none-elf- kvim3_defconfig
+#make ARCH=arm CROSS_COMPILE=aarch64-none-elf- kvim3_defconfig
+make ARCH=arm CROSS_COMPILE=aarch64-none-elf- edge_defconfig
 make ARCH=arm CROSS_COMPILE=aarch64-none-elf-
 
 cd -
